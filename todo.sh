@@ -1,12 +1,21 @@
 #!/bin/bash
 
-valid="-l"
-if [ "$1" == "-l" ];
+if [ "$1" == "-l" ] || [ -z "$1" ];
 then
-   /usr/bin/python3 /Users/amos/Shell/ToDo/todo-l.py #runs the list command
+   /usr/bin/python3 /Users/amos/Shell/Little-ToDo-List/todo-l.py
 fi
 
-if [ "$1" != $valid ];
+if [ "$1" == "-v" ];
 then
-   echo "invalid!"w
+   echo "v0.5"
+fi
+
+if [ "$1" == "-a" ];
+then
+   /usr/bin/python3 /Users/amos/Shell/Little-ToDo-List/todo-a.py
+fi
+
+if [ "$1" != "-v" ] && [ "$1" != "-l" ] && [ ! -z "$1" ]
+then
+   echo "invalid"
 fi
