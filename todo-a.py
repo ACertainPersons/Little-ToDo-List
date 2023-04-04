@@ -5,10 +5,10 @@ title = input("Title: ")
 description = input("Description: ")
 
 #writing time
-f = open("data.txt", "a")
+f = open("/Users/Little-ToDo-List/data.txt", "a")
 f.write(title + "\n")
 f.write(description + "\n")
 f.close()
 
 #list out
-os.system('/usr/bin/python3 /Users/amos/Shell/Little-ToDo-List/todo-l.py')
+os.system('/usr/bin/python3 /Users/Little-ToDo-List/todo-l.py')

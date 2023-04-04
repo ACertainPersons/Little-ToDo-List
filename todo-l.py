@@ -1,6 +1,6 @@
 #first line is title, second is description
 n = 0
-f = open("data.txt", "r")
+f = open("/Users/Little-ToDo-List/data.txt", "r")
 z = 1
 
 #print the title

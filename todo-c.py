@@ -23,10 +23,10 @@ try :
                 # iterate each line
     
     #list out
-    os.system('/usr/bin/python3 /Users/amos/Shell/Little-ToDo-List/todo-l.py')
+    os.system('/usr/bin/python3 /Users/Little-ToDo-List/todo-l.py')
 except ValueError: 
     print()
     print("Only integers are supported")
     print("Please try again")
-    os.system('/usr/bin/python3 /Users/amos/Shell/Little-ToDo-List/todo-c.py')
+    os.system('/usr/bin/python3 /Users/Little-ToDo-List/todo-c.py')
 fp.close()
