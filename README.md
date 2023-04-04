@@ -1,6 +1,9 @@
 # Little-ToDo-List
 A command line based ToDo list
 
+## Preview
+Coming Soon ;)
+
 ## Installation
 
 Run the following in your terminal:  
