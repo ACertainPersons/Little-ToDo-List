@@ -1,0 +1,9 @@
+Use ./todo.sh -a to write in a new item
+French Test
+Due Wednesday
+Geo Foods Project
+Due on the 14th
+Accounting Test
+Due Thursday
+Essay Outline
+Due the 21st
