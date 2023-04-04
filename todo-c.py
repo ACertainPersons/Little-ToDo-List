@@ -7,14 +7,14 @@ try :
     # list to store file lines
     lines = []
     # read file
-    with open(r"data.txt", 'r') as fp:
+    with open(r"Users/Little-ToDo-List/data.txt", 'r') as fp:
         # read and store all lines into list
         lines = fp.readlines()
 
     m = (n*2)-1
     p = m + 1
     # Write file
-    with open(r"data.txt", 'w') as fp:
+    with open(r"Users/Little-ToDo-List/data.txt", 'w') as fp:
         # iterate each line
         for number, line in enumerate(lines):
             # note list index starts from 0
