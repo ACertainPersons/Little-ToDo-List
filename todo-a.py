@@ -6,8 +6,8 @@ description = input("Description: ")
 
 #writing time
 f = open("/Users/Little-ToDo-List/data.txt", "a")
-f.write(title + "\n")
-f.write(description + "\n")
+f.write(title + '\n')
+f.write(description + '\n')
 f.close()
 
 #list out
