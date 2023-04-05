@@ -1,8 +1,10 @@
 # Little-ToDo-List
-A command line based ToDo list
+A command line based ToDo list. Written mostly in Python with some shell script.
 
 ## Preview
-Coming Soon ;)
+<img src="https://acertainpersons.github.io/omg_its_img!/sample.png">
+
+<br>
 
 ## Installation
 
