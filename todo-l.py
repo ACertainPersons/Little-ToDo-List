@@ -16,3 +16,4 @@ for line in f.readlines():
     else :
         print(line)
     n += 1
+print()

@@ -21,6 +21,7 @@ try :
             if number not in [m, p]:
                 fp.write(line)
                 # iterate each line
+    fp.close()
     
     #list out
     os.system('/usr/bin/python3 /Users/Little-ToDo-List/todo-l.py')
@@ -29,4 +30,3 @@ except ValueError:
     print("Only integers are supported")
     print("Please try again")
     os.system('/usr/bin/python3 /Users/Little-ToDo-List/todo-c.py')
-fp.close()
