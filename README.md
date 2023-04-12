@@ -27,9 +27,12 @@ The reason why I didn't `cd` into your /Users directory is because on macOS, it 
 User@ComputerName Little-ToDo-List % ./todo.sh help  
 Available Commands:
 
-help, -h   Display the available commands
--l         Lists out the things on your to-do list
--v         Displays the version
--a         Add a new item
--c         Delete (cancel) an item
+help, -h       Display the available commands
+<blank>, -l    Lists out the things on your to-do list
+-v             Displays the version
+-a             Add a new item
+-c             Delete (cancel) an item
+-t             Change the title for an item
+-d             Change the description for an item
+
 ```

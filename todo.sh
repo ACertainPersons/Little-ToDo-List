@@ -7,20 +7,22 @@ fi
 
 if [ "$1" == "-v" ];
 then
+   echo ""
    echo "v0.2"
+   echo ""
 fi
 
 if [ "$1" == "help" ] || [ "$1" == "-h" ];
 then
    echo "Available Commands:"
    echo ""
-   echo "help, -h   Display the available commands"
-   echo "-l         Lists out the things on your to-do list"
-   echo "-v         Displays the version"
-   echo "-a         Add a new item"
-   echo "-c         Delete (cancel) an item"
-   echo "-t         Change the title for an item"
-   echo "-d         Change the description for an item"
+   echo "help, -h       Display the available commands"
+   echo "<blank>, -l    Lists out the things on your to-do list"
+   echo "-v             Displays the version"
+   echo "-a             Add a new item"
+   echo "-c             Delete (cancel) an item"
+   echo "-t             Change the title for an item"
+   echo "-d             Change the description for an item"
 fi
 
 if [ "$1" == "-a" ];
