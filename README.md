@@ -36,3 +36,7 @@ help, -h       Display the available commands
 -d             Change the description for an item
 
 ```
+
+## Contributing
+
+You are welcome to fork it and add your own things to it. If you want your version to be integrated into here, feel free to send a pull request.
