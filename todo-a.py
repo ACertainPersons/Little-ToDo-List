@@ -11,4 +11,4 @@ f.write(description + '\n')
 f.close()
 
 #list out
-os.system('/usr/bin/python3 ~/Little-ToDo-List/todo-l.py')
+os.system('/usr/bin/python3 /Users/Little-ToDo-List/todo-l.py')
