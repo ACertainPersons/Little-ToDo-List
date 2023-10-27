@@ -2,7 +2,7 @@
 A command line based ToDo list. Written mostly in Python with some shell script.
 
 ## Preview
-<img src="https://acertainpersons.github.io/omg_its_img!/sample.png">
+<img src="https://acertainpersons.github.io/omg_its_img!/sample1.png">
 
 <br>
 
@@ -11,20 +11,24 @@ A command line based ToDo list. Written mostly in Python with some shell script.
 **DO NOT USE THE ZIP FILES INCLUDED WITH THE RELEASE. FOLLOW THE FOLLOWING INSTRUCTIONS INSTEAD**\
 \
 Run the following in your terminal:  
+```zsh
+cd ~/ && git clone https://github.com/ACertainPersons/Little-ToDo-List.git && sudo touch ~/.zshenv && echo "alias todo=~/Little-ToDo-List/todo.sh" >> ~/.zshenv && cd Little-ToDo-List && touch data.txt && echo "Use todo -a to write in a new item" >> data.txt 
 ```
-git clone https://github.com/ACertainPersons/Little-ToDo-List.git && cd little-todo-list && touch data.txt && echo "Use ./todo.sh -a to write in a new item" >> data.txt
-```
-Then copy the Little-ToDo-List folder into your /Users directory.
-### Reasons and Explanations
 
-The reason why I didn't `cd` into your /Users directory is because on macOS, it doesn't grant you the permission necessary to `git clone` stuff. I don't know if this works on Linux. Please check and if it doesn't work, send me an issue.
+If it doesn't execute due to a permissions issue, you may need to run the following command:
+```zsh
+cd ~/Little-ToDo-List
+chmod 777 todo.sh
+```
 
 <br>
 
 ## Available Commands
 
-```
-User@ComputerName Little-ToDo-List % ./todo.sh help  
+Just run todo in your terminal!
+
+```zsh
+User@ComputerName Little-ToDo-List % todo help  
 Available Commands:
 
 help, -h       Display the available commands
@@ -40,3 +44,8 @@ help, -h       Display the available commands
 ## Contributing
 
 You are welcome to fork it and add your own things to it. If you want your version to be integrated into here, feel free to send a pull request.
+
+To use the developement branch (yes, I know it's misspelled I just can't change it now):
+```zsh
+git checkout developement
+```
