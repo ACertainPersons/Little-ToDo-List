@@ -12,7 +12,7 @@ A command line based ToDo list. Written mostly in Python with some shell script.
 \
 Run the following in your terminal:  
 ```zsh
-cd ~/ && git clone https://github.com/ACertainPersons/Little-ToDo-List.git && sudo touch ~/.zshenv && echo "alias todo=~/Little-ToDo-List/todo.sh" >> ~/.zshenv && cd Little-ToDo-List && touch data.txt && echo "Use todo -a to write in a new item" >> data.txt
+cd ~/ && git clone https://github.com/ACertainPersons/Little-ToDo-List.git && sudo touch ~/.zshenv && echo "alias todo=~/Little-ToDo-List/todo.sh" >> ~/.zshenv && cd Little-ToDo-List && touch data.txt && echo "Use todo -a to write in a new item" >> data.txt 
 ```
 
 If it doesn't execute due to a permissions issue, you may need to run the following command:
@@ -44,3 +44,8 @@ help, -h       Display the available commands
 ## Contributing
 
 You are welcome to fork it and add your own things to it. If you want your version to be integrated into here, feel free to send a pull request.
+
+To use the developement branch (yes, I know it's misspelled I just can't change it now):
+```zsh
+git checkout developement
+```
