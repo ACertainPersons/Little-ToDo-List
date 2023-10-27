@@ -35,4 +35,4 @@ except ValueError:
     print()
     print("Only integers are supported")
     print("Please try again")
-    os.system('/usr/bin/python3 ~/Little-ToDo-List/todo-t.py')
+    os.system('/usr/bin/python3 ~/Little-ToDo-List/todo-d.py')
