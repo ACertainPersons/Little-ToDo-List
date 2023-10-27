@@ -8,7 +8,7 @@ fi
 if [ "$1" == "-v" ];
 then
    echo ""
-   echo "v0.2"
+   echo "v0.3"
    echo ""
 fi
 
