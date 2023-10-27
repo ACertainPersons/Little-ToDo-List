@@ -2,7 +2,7 @@
 A command line based ToDo list. Written mostly in Python with some shell script.
 
 ## Preview
-<img src="https://acertainpersons.github.io/omg_its_img!/sample.png">
+<img src="https://acertainpersons.github.io/omg_its_img!/sample1.png">
 
 <br>
 
@@ -12,7 +12,13 @@ A command line based ToDo list. Written mostly in Python with some shell script.
 \
 Run the following in your terminal:  
 ```zsh
-cd ~/ && git clone https://github.com/ACertainPersons/Little-ToDo-List.git && touch ~/.zshenv && echo "alias todo=~/Little-ToDo-List/todo.sh" >> ~/.zshenv && cd Little-ToDo-List && touch data.txt && echo "Use ./todo.sh -a to write in a new item" >> data.txt
+cd ~/ && git clone https://github.com/ACertainPersons/Little-ToDo-List.git && sudo touch ~/.zshenv && echo "alias todo=~/Little-ToDo-List/todo.sh" >> ~/.zshenv && cd Little-ToDo-List && touch data.txt && echo "Use todo -a to write in a new item" >> data.txt
+```
+
+If it doesn't execute due to a permissions issue, you may need to run the following command:
+```zsh
+cd ~/Little-ToDo-List
+chmod 777 todo.sh
 ```
 
 <br>
