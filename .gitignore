@@ -1,0 +1,5 @@
+*ignore data.txt
+/data.txt
+
+*ignore all .DS_Store
+.DS_Store

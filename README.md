@@ -12,7 +12,7 @@ A command line based ToDo list. Written mostly in Python with some shell script.
 \
 Run the following in your terminal:  
 ```zsh
-cd /Users/ && sudo git clone https://github.com/ACertainPersons/Little-ToDo-List.git && sudo chmod 777 little-todo-list && cd little-todo-list && sudo touch data.txt && sudo chmod 777 data.txt && sudo echo "Use ./todo.sh -a to write in a new item" >> data.txt
+cd ~/ && git clone https://github.com/ACertainPersons/Little-ToDo-List.git && cd little-todo-list && ouch data.txt && echo "Use ./todo.sh -a to write in a new item" >> data.txt
 ```
 
 <br>

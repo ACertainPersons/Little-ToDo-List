@@ -1,6 +1,10 @@
+import os.path
+
+path = os.path.expanduser("~/Little-ToDo-List/data.txt")
+
 #first line is title, second is description
 n = 0
-f = open("/Users/Little-ToDo-List/data.txt", "r")
+f = open(path, "r")
 z = 1
 
 #print the title
