@@ -45,7 +45,9 @@ help, -h       Display the available commands
 
 You are welcome to fork it and add your own things to it. If you want your version to be integrated into here, feel free to send a pull request.
 
-To use the developement branch (yes, I know it's misspelled I just can't change it now):
+To use the development branch(Just remove the part inside of <>):
 ```zsh
-git checkout developement
+git checkout -b development-<your_username>
 ```
+
+
